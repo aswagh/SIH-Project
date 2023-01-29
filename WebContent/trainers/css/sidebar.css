@@ -1,0 +1,36 @@
+#sidebar-wrapper{
+	z-index: 1;
+	position: fixed;
+	width: 250px;
+	height: 100%;
+	overflow-y: hidden;
+	opacity: 0.9;
+   	transition: all 1s;
+   	background : #e60000;
+}
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;;
+   	transition: all 1s;
+	padding-left: 250px;
+	overflow-y: ;
+
+}
+#sidebar-list{
+	margin-top : 200px;;
+}
+#wrapper.menuDisplay #sidebar-wrapper{
+	width: 0;
+   transition: all 0.5s;
+
+}
+
+#wrapper.menuDisplay #page-content-wrapper{
+	padding: 15px;
+   transition: all 0.5s;
+}
+
+
+/* _____________________code for Siderbar links ____________________________*/
+
